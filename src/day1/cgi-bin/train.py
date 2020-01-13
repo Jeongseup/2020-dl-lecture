@@ -1,6 +1,6 @@
 import modelann
 import numpy as np
-from keras.utils import np_utils  # to_categorical
+from tensorflow.keras import utils as np_utils  # to_categorical
 from tensorflow.keras import datasets  # mnist
 
 (X, Y), (testX, testY) = datasets.mnist.load_data()
